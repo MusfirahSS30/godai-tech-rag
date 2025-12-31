@@ -1,0 +1,13 @@
+# Virtual env
+.venv/
+
+# Secrets
+.env
+
+# Chroma DB
+chroma/
+godai-rag/chroma/
+
+# Python cache
+__pycache__/
+*.pyc

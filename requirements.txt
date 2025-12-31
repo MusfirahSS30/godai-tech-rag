@@ -1,0 +1,21 @@
+python-dotenv==1.0.1
+
+# LangChain core + community integrations
+langchain==0.2.2
+langchain-community==0.2.3
+
+# Groq + HuggingFace integrations
+langchain-groq
+langchain-huggingface
+
+# Vector DB
+chromadb==0.5.0
+
+# PDF loading
+pypdf
+
+# Local embeddings
+sentence-transformers
+
+# UI
+streamlit
