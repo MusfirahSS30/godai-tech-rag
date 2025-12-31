@@ -41,6 +41,18 @@ GROQ_MODEL=llama-3.1-8b-instant
 
 > Note: Ensure `GROQ_MODEL` contains only the model name (e.g., `llama-3.1-8b-instant`) — do **not** include a duplicate `GROQ_MODEL=` prefix.
 
+
+4. Document Sources
+
+The chatbot retrieves information from the following documents located in `/docs`:
+
+- Godai Tec – Legal, Regulatory & Compliance Framework
+- Godai Tec – Commercial Terms & Pricing Schedule
+- Godai Tec – Corporate Policy & Operating Manual
+
+These documents are included to allow full reproducibility of the RAG pipeline.
+
+
 ## Usage
 
 - Create the Chroma DB (ensure PDFs are in `DATA_DIR`):
@@ -69,3 +81,4 @@ streamlit run app.py
 ## License
 
 MIT — adapt as needed.
+
